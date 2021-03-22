@@ -4,7 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Description
 
-This is my version of a small card collection application using the Elder Scrolls Legends third party public API
+This is my version of a small card collection application using the Elder Scrolls Legends third party public API.
+
+Improvements to make:
+
+1. Debounce when a user is typing in a name to search
+2. progressively load images better than just `loading="lazy"`
 
 ## Available Scripts
 
