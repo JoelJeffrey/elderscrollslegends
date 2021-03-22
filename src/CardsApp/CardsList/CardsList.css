@@ -1,0 +1,13 @@
+.cards-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+  justify-items: center;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .cards-list {
+    grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr));
+  }
+}

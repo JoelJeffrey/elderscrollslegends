@@ -1,0 +1,34 @@
+.cards-app {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  max-width: 1600px;
+}
+
+.cards-app-title {
+  text-align: center;
+  color: #fff;
+}
+
+.cards-app-search {
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+
+.cards-app-input {
+  background: #1b1b1b;
+  color: #fff;
+  border: 0.1rem solid #765f1a;
+  height: 2.5rem;
+  width: 15rem;
+  padding: 0 1rem;
+}
+
+.load-more {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.cards-spinner {
+  width: 4rem;
+}
